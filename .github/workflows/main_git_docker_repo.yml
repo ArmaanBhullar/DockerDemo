@@ -54,7 +54,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/ArmaanBhullar/simplewhale:latest 
+          tags: ghcr.io/armaanbhullar/simplewhale:latest 
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
       
